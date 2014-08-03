@@ -2,9 +2,9 @@
 
 ActivitiesRoute = Ember.Route.extend
   model: ->
-    $.ajax
-      url: '/activities/jimmay5469?start=0&limit=1000'
-      headers:
-        Accept: 'application/json'
+    @store.find 'activity',
+      username: 'jimmay5469'
+      start: 0
+      limit: 1000
 
 `export default ActivitiesRoute`
