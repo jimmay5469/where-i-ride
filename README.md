@@ -10,8 +10,8 @@ Different ride reports generated from Garmin Connect data.
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* `ember server --proxy https://connect.garmin.com/proxy/activitylist-service --port 4300`
+* Visit your app at http://localhost:4300.
 
 ## Running Tests
 

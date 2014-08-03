@@ -4,5 +4,6 @@ Router = Ember.Router.extend
   location: WhereIRideENV.locationType
 
 Router.map ->
+  @route 'activities'
 
 `export default Router`

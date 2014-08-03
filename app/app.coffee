@@ -8,7 +8,6 @@ App = Ember.Application.extend
   modulePrefix: 'where-i-ride' # TODO: loaded via config
   Resolver: Resolver
 
-
 loadInitializers App, 'where-i-ride'
 
 `export default App`

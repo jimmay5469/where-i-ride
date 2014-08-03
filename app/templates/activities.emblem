@@ -1,0 +1,4 @@
+ul
+  each activityList
+    li 
+      activityName
